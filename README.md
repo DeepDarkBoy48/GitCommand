@@ -8,11 +8,15 @@
 git -v
 ```
 
+
+
 #### 1.初始化仓库
 
 ```
 git init
 ```
+
+
 
 #### 2.克隆仓库
 
@@ -25,6 +29,8 @@ git clone https://github.com/DeepDarkBoy48/clonetest.git
 ```
 git clone https://github.com/DeepDarkBoy48/clonetest.git 更换名称
 ```
+
+
 
 #### 3.仓库配置
 
@@ -45,6 +51,8 @@ git config --global user.name 名字
 ```
 git config --global user.email 邮件
 ```
+
+
 
 #### 4.文件操作
 
@@ -88,7 +96,9 @@ git log
 git log --oneline
 ```
 
-##### 5.回退
+
+
+#### 5.回退
 
 ##### 5.1误删文件后恢复（未提交）
 
@@ -168,14 +178,14 @@ git branch -d 分支名称
 git push --set-upstream origin user
 ```
 
-
-
 分支合并
 先切换到主分支使用merge合并
 
 ```
 git merge 副分支
 ```
+
+
 
 #### 7.tag
 
@@ -233,6 +243,8 @@ git tag -d xuzitag
 git checkout -b 分支名称 标签名称
 ```
 
+
+
 #### 8.远程仓库推送
 
 config文件中远程仓库的内容
@@ -258,6 +270,8 @@ git pull origin
 
 
 #### 9.ssh远程仓库链接（未研究）
+
+
 
 #### 10.linux 
 
