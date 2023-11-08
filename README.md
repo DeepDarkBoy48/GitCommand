@@ -257,4 +257,10 @@ git pull origin
 
 
 
-##### ssh远程仓库链接（未研究）
+#### 9.ssh远程仓库链接（未研究）
+
+#### 10.linux 
+
+Linux系统下用gitlab部署自己的代码托管平台
+
+虚拟机：VMware
