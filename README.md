@@ -294,3 +294,6 @@ git remote -v
 Linux系统下用gitlab部署自己的代码托管平台
 
 虚拟机：VMware
+
+
+就一句一句句句句句句
