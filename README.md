@@ -4,7 +4,7 @@
 
 #### 0.查看版本
 
-```
+```c
 git -v
 ```
 
@@ -12,7 +12,7 @@ git -v
 
 #### 1.初始化仓库
 
-```
+```markdown
 git init
 ```
 
@@ -20,13 +20,13 @@ git init
 
 #### 2.克隆仓库
 
-```
+```c
 git clone https://github.com/DeepDarkBoy48/clonetest.git
 ```
 
 更换仓库名称
 
-```
+```c
 git clone https://github.com/DeepDarkBoy48/clonetest.git 更换名称
 ```
 
@@ -34,11 +34,11 @@ git clone https://github.com/DeepDarkBoy48/clonetest.git 更换名称
 
 #### 3.仓库配置
 
-```
+```c++
 git config user.name 名字
 ```
 
-```
+```c
 git config user.email 邮件
 ```
 
@@ -62,10 +62,16 @@ git状态
 git status
 ```
 
-将文件从工作区添加到暂存区
+将单个文件从工作区添加到暂存区
 
 ```
 git add 文件名
+```
+
+将所有文件从工作区添加到暂存区
+
+```
+git add --all
 ```
 
 将同一后缀的文件都添加到暂存区
@@ -265,6 +271,16 @@ git push origin
 
 ```
 git pull origin
+```
+
+```
+git remote add origin (http)
+```
+
+查看添加的远程仓库
+
+```
+git remote -v
 ```
 
 
