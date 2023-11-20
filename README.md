@@ -273,6 +273,12 @@ config文件中远程仓库的内容
 git push origin
 ```
 
+这个命令将本地的 `main` 分支推送到远程仓库的 `origin` 上
+
+```
+git push -u origin main
+```
+
 远程拉取
 
 ```
@@ -301,5 +307,24 @@ Linux系统下用gitlab部署自己的代码托管平台
 
 虚拟机：VMware
 
+### github官方手册
 
-就一句一句句句句句句
+#### create a new repository on the command line
+
+```
+echo "# test" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/DeepDarkBoy48/test.git
+  git push -u origin main
+```
+
+#### push an existing repository from the command line
+
+```
+git remote add origin https://github.com/DeepDarkBoy48/test.git
+  git branch -M main
+  git push -u origin main
+```
