@@ -160,6 +160,12 @@ git branch 分支名称
 git branch -v
 ```
 
+重命名分支
+
+```
+git branch -m 名称
+```
+
 切换分支
 
 ```
