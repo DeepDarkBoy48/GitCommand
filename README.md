@@ -309,7 +309,7 @@ Linux系统下用gitlab部署自己的代码托管平台
 
 ### github官方手册
 
-#### create a new repository on the command line
+#### 1.create a new repository on the command line
 
 ```
 echo "# test" >> README.md
@@ -321,10 +321,47 @@ echo "# test" >> README.md
   git push -u origin main
 ```
 
-#### push an existing repository from the command line
+#### 2.push an existing repository from the command line
 
 ```
 git remote add origin https://github.com/DeepDarkBoy48/test.git
   git branch -M main
   git push -u origin main
 ```
+
+#### 3.上传大文件
+
+https://git-lfs.com/
+
+检查安装
+
+```
+git lfs install
+```
+
+追踪要上传的大文件
+
+```
+git lfs track *
+```
+
+添加文件属性
+
+```
+git add .gitattributes
+```
+
+例如，要关联 .psd 文件，请输入以下命令：
+
+```shell
+$ git lfs track "*.文件后缀"
+```
+
+git push
+
+
+
+
+
+
+
