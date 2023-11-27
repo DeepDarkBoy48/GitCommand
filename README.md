@@ -52,6 +52,11 @@ git config --global user.name 名字
 git config --global user.email 邮件
 ```
 
+```
+git config --global user.name
+git config --global user.email
+```
+
 
 
 #### 4.文件操作
@@ -359,7 +364,7 @@ $ git lfs track "*.文件后缀"
 
 git push
 
-
+# 
 
 
 
