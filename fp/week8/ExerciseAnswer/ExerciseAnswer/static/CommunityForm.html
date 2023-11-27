@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> SessionExercise </title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/static/DeleteDataForm.html">delete</a>
+      <a href="/GetData">getData</a>
+    </nav>
+    <h1>Add your form here</h1>
+    <!-- add your form here -->
+    <form action = "/AddCommunityData" onsubmit="return validate()" method="POST" id = "myForm" name="CommunityForm">
+      <label>email address:
+        <input type="email" name="email"><br>
+      </label><br>
+      <label>What is the worst thing about your Community (max 10 words):
+        <textarea rows = "2" cols = "20" name="worst"></textarea>
+      </label><br>
+      <label>What is the best thing about your Community (max 10 words):
+        <textarea rows = "2" cols = "20" name="best"></textarea>
+      </label><br>
+      <label>What is your neighbours worst habbit (max 5 words):
+        <input type="text" name="habbit"></input>
+      </label><br>
+      <button type = "submit"> submit </button>
+
+    </form>
+    <script>
+      function validate(){
+        pass = true;
+        var worst=document.forms["CommunityForm"]["worst"].value;
+        var best=document.forms["CommunityForm"]["best"].value;
+        var habbit=document.forms["CommunityForm"]["habbit"].value;
+        if (worst.split(" ").length >10){
+          alert("worst too long");
+          pass=false;
+        }
+        if (best.split(" ").length >10){
+          alert("best too long");
+          pass=false;
+        }
+        if (habbit.split(" ").length >5){
+          alert("habbit too long");
+          pass=false;
+        }
+        return pass;
+      }
+    </script>
+  </body>
+</html>

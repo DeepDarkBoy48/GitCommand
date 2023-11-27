@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> DeleteSessionExercise </title>
+  </head>
+
+  <body>
+    <nav>
+      <a href="/static/CommunityForm.html">Add</a>
+      <a href="/GetData">getData</a>
+
+    </nav>
+    <h1>Add your form here</h1>
+    <!-- add your form here -->
+    <form action = "/DeleteData" onsubmit="return validate()" method="POST" id = "myForm" name="CommunityForm">
+      <label>email address to delete:
+        <input type="email" name="email"><br>
+      </label><br>
+      <button type = "submit"> submit </button>
+
+    </form>
+    <script>
+      function validate(){
+        pass = true;
+        return pass;
+      }
+    </script>
+  </body>
+</html>

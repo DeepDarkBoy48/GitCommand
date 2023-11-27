@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- comment -->
+<html>
+  <head>
+    <title> FormProcessing </title>
+  </head>
+
+  <body>
+    <p>This is better because, with a screen reader, when you click<br>
+    on the "firstname" it reads the label of the input <br>
+    and also puts the cursor in the first name input box.<br><br><p>
+    <form action = "/HomeForm" method="get" id = "myForm">
+      <label>first name:
+        <input type = "text" name = "firstname"><br>
+      </label>
+
+      <label>text:
+        <textarea rows = "5" cols = "10" name = "text"></textarea>
+      </label><br>
+      <button type = "submit"> submit </button>
+
+    </form>
+
+<h2>Quick Exercise:</h2>
+    <ul>
+      <li>Install "Screenreader for Google Chrome" </li>
+      <ul>
+        <li> <a href="https://chrome.google.com/webstore/category/extensions"> https://chrome.google.com/webstore/category/extensions </a> </li>
+        <li>Search for Screen Reader for Chrome</li>
+        <li>Add to chrome</li>
+      </ul>
+      <li> Tryout the screen reader by clicking on different parts of the text </li>
+      <li> Exchange the label tags for div tags. What happens with the screen reader?
+      <li> Remove the div tags. What happens with the screen reader?
+    </ul>
+
+  </body>
+</html>
