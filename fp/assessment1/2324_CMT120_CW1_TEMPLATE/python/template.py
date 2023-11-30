@@ -1,8 +1,19 @@
 import copy
 
 # Exercise 1 - Smallest Fraction Terms
-def exercise1(num,den):
-    return None
+def exercise1(numerator,denominator):
+    def gcd(a, b):
+        while b:
+            a, b = b, a % b
+        return a
+
+    def reduce_fraction(numerator, denominator):
+        common_divisor = gcd(numerator, denominator)
+        reduced_numerator = numerator // common_divisor
+        reduced_denominator = denominator // common_divisor
+        return (reduced_numerator, reduced_denominator)
+    result = reduce_fraction(numerator,denominator)
+    return result
 
 # Exercise 2 - Magical Dates
 def exercise2(day,month,year):

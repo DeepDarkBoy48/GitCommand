@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>json</title>
+</head>
+<body>
+  <ul>
+    <!-- single var takes the whole item -->
+  {%for item in  data.items() %}
+    <li>{{item}}</li>
+  {% endfor %}
+  </ul>
+
+  <ul>
+    <!-- two vars, dereferences to key + value (could be x,y) -->
+  {%for key,value in  data.items() %}
+    <li>{{value}},{{key}}</li>
+  {% endfor %}
+  </ul>
+
+  <!-- note the () data.days vs  data.items()  -->
+  {%for day in data.days%}
+    {{day}}
+  {%endfor%}
+</body>
+</html>
