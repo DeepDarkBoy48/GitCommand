@@ -74,5 +74,13 @@ For individual tasks, <u>I only studied the tutorials in the Learning Center.</u
 
 For teamwork, <u>Our team had some efficient conversations through Teams.</u> But there was an issue of assigning tasks unfairly. And I plan to use excel and Git to track the progress in the future. 
 
-![image-20231201100341703](assets/image-20231201100341703.png)
+![image-20231201100543713](assets/image-20231201100543713.png)
+
+![image-20231201100640242](assets/image-20231201100640242.png)
+
+
+
+
+
+
 
