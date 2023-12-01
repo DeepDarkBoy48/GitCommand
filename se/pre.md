@@ -68,8 +68,12 @@ Here is our poster. In the Lean Canvas, each color corresponds to the section fi
 
 In lean canvas, I finished the customer segment and early adopters parts. The colors are marked in orange.
 
-In the Risk Register, I completed the Legal Risks, which are Copyright and User Privacy Risks. The color are marked in blue.
+In the Risk Register, I finished the Legal Risks, which are Copyright and User Privacy Risks. The color are marked in blue.
 
+<<<<<<< HEAD
 For individual tasks, <u>I only studied the tutorials in the Learning Center.</u> In the future, I should try more tools that are already available in the market.
+=======
+For the improvement of individual tasks, I should try more tools that are already available in the market.
+>>>>>>> 6004edbcaff98432ccfa4109675c94e3d1178cbd
 
 For teamwork, <u>Our team had some efficient conversations through Teams.</u> But there was an issue of assigning tasks unfairly. And I plan to use excel and Git to track the progress in the future. 
