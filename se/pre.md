@@ -58,7 +58,7 @@ In teamwork, Our group had problems in allocating tasks and not everyone got a f
 
 
 
-
+In the Lean Canvas, I completed this part. The color is orange. I think the customer is university and the users are the teachers and students. Early adopters are educators, and learning central of our school. 
 
 
 
@@ -66,10 +66,10 @@ In teamwork, Our group had problems in allocating tasks and not everyone got a f
 
 Here is our poster. In the Lean Canvas, each color corresponds to the section finished by each team member. In the risk register, each color corresponds to different categories of risk.
 
-In the Lean Canvas, I completed this part. The color is orange. I think the customer is university and the users are the teachers and students. Early adopters are educators, and learning central of our school. 
+In lean canvas, I finished the customer segment and early adopters parts. The colors are marked in orange.
 
-In the Risk Register, I completed the Legal Risks, which are Copyright and User Privacy Risks. The color is blue.
+In the Risk Register, I completed the Legal Risks, which are Copyright and User Privacy Risks. The color are marked in blue.
 
-For the improvement of individual tasks, I should try more tools that are already available in the market.
+For individual tasks, I should try more tools that are already available in the market.
 
-For teamwork, there was an issue of assigning tasks unfairly. To improve, I plan to use excel and Git to track the progress of the team.
+For teamwork, there was an issue of assigning tasks unfairly. And I plan to use excel and Git to track the progress in the future.
