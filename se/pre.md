@@ -70,6 +70,6 @@ In lean canvas, I finished the customer segment and early adopters parts. The co
 
 In the Risk Register, I completed the Legal Risks, which are Copyright and User Privacy Risks. The color are marked in blue.
 
-For individual tasks, I should try more tools that are already available in the market.
+For individual tasks, <u>I only studied the tutorials in the Learning Center.</u> In the future, I should try more tools that are already available in the market.
 
-For teamwork, there was an issue of assigning tasks unfairly. And I plan to use excel and Git to track the progress in the future.
+For teamwork, <u>Our team had some efficient conversations through Teams.</u> But there was an issue of assigning tasks unfairly. And I plan to use excel and Git to track the progress in the future. 
